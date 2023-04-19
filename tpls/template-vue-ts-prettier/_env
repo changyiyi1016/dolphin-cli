@@ -1,0 +1,7 @@
+# port
+VITE_PORT = 3100
+
+# spa-title
+VITE_GLOB_APP_TITLE = <%= projectName %>
+
+VITE_GLOB_APP_SHORT_NAME = <%= projectName %>
