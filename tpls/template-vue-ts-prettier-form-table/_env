@@ -1,9 +1,0 @@
-# port
-VITE_PORT = 3100
-
-VITE_SUB_APP_SIDE = false
-
-# spa-title
-VITE_GLOB_APP_TITLE = <%= projectTitle %>
-
-VITE_GLOB_LOCALSTORAGE_PREFIX = biomap_os

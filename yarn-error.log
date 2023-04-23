@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add -D vue vuex vue-router
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/changyi/miniconda3/bin:/Users/changyi/miniconda3/condabin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/Users/changyi/gitHub_local/dolphin-cli/node_modules/balanced-match/index.js'
+
+npm manifest: 
+  {
+    "name": "dolphin-cli",
+    "version": "1.0.0",
+    "description": "脚手架",
+    "main": "cli.js",
+    "type": "module",
+    "bin": {
+      "mycli": "./cli.js"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "chalk": "^5.2.0",
+      "commander": "^10.0.1",
+      "cross-spawn": "^7.0.3",
+      "ejs": "^3.1.9",
+      "inquirer": "^9.1.5",
+      "ora": "^6.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  
