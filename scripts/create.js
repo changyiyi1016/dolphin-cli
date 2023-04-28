@@ -26,7 +26,7 @@ module.exports = async function(targetDir) {
 
         const projectTitle = projectName.replace(/-/g, '_')
 
-        const publicPath = projectName.replace('biomap-web-', '')
+        const publicPath = projectName.replace('', '')
 
         const appName = publicPath.split('-').map(name => name.replace(name[0], name[0].toUpperCase())).join('')
 
